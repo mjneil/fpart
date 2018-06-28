@@ -1,5 +1,5 @@
 Name:    fpart
-Version: 1.1.0
+Version: 1.2.0-alpine-rc0
 Release: 1%{?dist}
 Group:   Applications/System
 License: BSD
@@ -43,6 +43,9 @@ mkdir -p %{RPM_BUILD_ROOT}%{_docdir}
 %{_bindir}/fpsync
 
 %changelog
+* Thu Jun 28 2018 Ganael Laplanche <ganael.laplanche@martymac.org> - 1.2.0-alpine-rc0
+- Version 1.2.0-alpine-rc0
+
 * ??? ??? ?? 201? Ganael Laplanche <ganael.laplanche@martymac.org> - 1.1.0
 - Version 1.1.0
 
